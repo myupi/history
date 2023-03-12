@@ -845,9 +845,9 @@ const input = document.querySelector(`.inp-q`);
 const answer = document.querySelector(`.inp-a`);
 
 function create(question, answer) {
-  box.innerHTML += `<tr>
-                    <th scope="row">${question}</th>
-                    <td>${answer}</td>
+  box.innerHTML += `<tr class="w-100">
+                    <th scope="row" class="w-50">${question}</th>
+                    <td class="w-50">${answer}</td>
                 </tr>`;
 }
 
